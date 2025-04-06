@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = [
+  'libnss', 'libatk', 'libx11', 'libxcomposite', 'libxdamage', 'libxrandr',
+  'libasound2', 'libpango', 'libxshmfence', 'libxext', 'libxfixes',
+  'libxcursor', 'libxi', 'libxtst', 'libglib2.0', 'libnss3', 'libgconf-2.4',
+  'libfontconfig1', 'libxrender1', 'libxrandr2', 'libgtk-3-0', 'libgbm1',
+  'ca-certificates', 'fonts-liberation', 'libappindicator3-1', 'xdg-utils'
+]
